@@ -1,6 +1,6 @@
 /* appearance */
-static const unsigned int borderpx       = 3;   /* border pixel of windows */
-static const unsigned int snap           = 32;  /* snap pixel */
+static const unsigned int borderpx       = 2;   /* border pixel of windows */
+static const unsigned int snap           = 3;  /* snap pixel */
 static const unsigned int gappih         = 18;  /* horiz inner gap between windows */
 static const unsigned int gappiv         = 18;  /* vert inner gap between windows */
 static const unsigned int gappoh         = 14;  /* horiz outer gap between windows and screen edge */
@@ -26,7 +26,7 @@ static const char *fonts[]               = { "Iosevka Nerd Font:size=10:style=bo
                                              "NotoEmoji Nerd Font:size=12:antialias=true:autohint=true" };
 static const char dmenufont[]            = "JetBrainsMono Nerd Font:size=10:style=bold:antialias=true:autohint=true";
 
-static char c000000[]                    = "#A37ACC"; // placeholder value
+static char c000000[]                    = "#6c71c4"; // placeholder value
 
 static char normfgcolor[]                = "#CBE3E7";
 static char normbgcolor[]                = "#1e222a";
@@ -86,13 +86,13 @@ static char *colors[][ColCount] = {
 static char *statuscolors[][ColCount] = {
 	/*                       fg                bg                border                float */
 	[SchemeNorm]         = { "#F48FB1",        normbordercolor,  normbordercolor,      normfloatcolor },
-	[SchemeSel]          = { "#FFE6B3",        normbgcolor,      selbordercolor,       selfloatcolor },
-	[SchemeTitleNorm]    = { "#65B2FF",        normbordercolor,  titlenormbordercolor, titlenormfloatcolor },
+	[SchemeSel]          = { "#b58900",        normbgcolor,      selbordercolor,       selfloatcolor },
+	[SchemeTitleNorm]    = { "#6c71c4",        normbordercolor,  titlenormbordercolor, titlenormfloatcolor },
 	[SchemeTitleSel]     = { "#63F2F1",        normbgcolor,      titleselbordercolor,  titleselfloatcolor },
-	[SchemeTagsNorm]     = { "#ebcb8d",        normbordercolor,  tagsnormbordercolor,  tagsnormfloatcolor },
-	[SchemeTagsSel]      = { "#D4BFFF",        normbgcolor,      tagsselbordercolor,   tagsselfloatcolor },
-	[SchemeHidNorm]      = { "#71abeb",        normbordercolor,  c000000,              c000000 },
-	[SchemeHidSel]       = { "#62D196",        normbgcolor,      c000000,              c000000 },
+	[SchemeTagsNorm]     = { "#b58900",        normbordercolor,  tagsnormbordercolor,  tagsnormfloatcolor },
+	[SchemeTagsSel]      = { "#d33682",        normbgcolor,      tagsselbordercolor,   tagsselfloatcolor },
+	[SchemeHidNorm]      = { "#268bd2",        normbordercolor,  c000000,              c000000 },
+	[SchemeHidSel]       = { "#2aa198",        normbgcolor,      c000000,              c000000 },
 	[SchemeUrg]          = { urgfgcolor,       urgbgcolor,       urgbordercolor,       urgfloatcolor },
 };
 
