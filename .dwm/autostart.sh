@@ -8,7 +8,7 @@ function run {
 
 
 
-run "/home/rishit/.suckless/suckless/slstatus-powerline/slstatus"
+run "dwmblocks"
 
 run "/home/rishit/.fehbg"
 
